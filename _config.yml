@@ -17,16 +17,17 @@ baseurl: ""
 title: CloudKylin - GitHub.io
 
 # Short description of your site
-description: CloudKylin's GitHub page.
+description: CloudKylin's GitHub page
 
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
 navbar-links:
+  主页: "http://cloudkylin.github.io/"
+  项目文档:
+    - 暂无: "https://github.com/"
+    - 暂无: "https://github.com/"
   关于我: "aboutme"
-  代码仓库:
-    - GitHub: "https://cloudkylin.github.com/"
-    - Coding: "https://coding.net/u/CloudKylin/"
   主站: "https://www.cloudkylin.me/"
 
 # Image to show in the navigation bar - image must be a square (width = height)
@@ -63,7 +64,7 @@ footer-link-col: "#404040"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Some Person
+  name: CloudKylin
 
 # Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.
@@ -93,17 +94,17 @@ social-network-links:
 share-links-active:
   twitter: true
   facebook: true
-  google: false
+  google: true
   linkedin: true
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "cloudkylin.github.io"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Web Statistics Section --- #
 
 # Fill in your Google Analytics ID to track your website using GA
-#google_analytics: ""
+google_analytics: "UA-118272668-1"
 
 # Google Tag Manager ID
 #gtm: ""
@@ -230,6 +231,3 @@ prose:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
-
-# Beautiful Jekyll / Dean Attali
-# 2fc73a3a967e97599c9763d05e564189
