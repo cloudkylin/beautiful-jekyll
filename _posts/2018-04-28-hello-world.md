@@ -3,7 +3,7 @@ layout: post
 title: Hello world
 subtitle: Cloudylin在GitHub.io上的第一篇文章
 bigimg: /img/path.jpg
-tags: [helloworld, test]
+tags: [helloworld]
 ---
 
 唔，就像标题所描述的那样，意义重大的第一篇文章。其实早就想把技术类博客同其他类分开了，只是一直没找到合适的契机。近些天被疯狂吐槽博客打开慢，加上有个同学最近也在搞github.io，契机达成，于是乎这个博客就诞生了。
